@@ -1,3 +1,7 @@
+div {
+    border: solid 1px green;
+}
+
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -10,10 +14,61 @@
 }
 
 .header {
+    display: flex;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    align-items: center;
     /* выше установили ограничения для секции */
+}
+
+.logo {
+    height: 32px;
+    width: 183px;
+    position: absolute;
+    top: 30px;
+    left: 64px;
+}
+
+.logo_place_header {
+    background-image: url("../images/logo.svg");
+}
+
+.title {
+    font-size: 109px;
+    font-weight: bold;
+    margin-left: 64px;
+    width: 730px;
+    line-height: 96px;
+    
+}
+
+.subtitle {
+    width: 338px;
+    position: absolute;
+    left:64px;
+    bottom: 30px; 
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.link {
+
+}
+
+.main-illustration {
+
+}
+
+.square-pic {
+    position: absolute;
+    width: 568px;
+    height: 568px;
+    margin-top: 64px;
+    margin-right: 0;
+    background-color: #2F80ED;
+
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
