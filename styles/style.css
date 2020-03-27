@@ -1,7 +1,3 @@
-div {
-  border: solid 2px green;
-}
-
 .header__link:hover {
   color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
   text-decoration: underline;
