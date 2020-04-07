@@ -1,12 +1,13 @@
 @import url(./_theme/section-title_theme_dark.css);
+@import url(./_line-height/section-title_line-height_factor.css);
+@import url(./_line-height/section-title_line-height_px.css);
 
 .section-title {
   display: flex;
   justify-content: center;
   width: 60%;
-  margin-top: 70px; /*потому что у .two-columns__paragraph padding-bottom: 30px */
-  margin-bottom: 0;
-  line-height: 69px;
+  margin: 0; /* теперь все отступы прописаны в блоках*/
+  /*line-height: 69px;*/ /* так как в разных блоках разные line-height, созданы отдельные модификаторы*/
   font-size: 60px;
   font-weight: bold;
 }

@@ -8,3 +8,19 @@
     /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+div {
+  border: green 2px solid;
+}
+
+p {
+  border: green 2px solid;
+}
+
+h3 {
+  border: green 2px solid;
+}
+
+section, li, ul {
+  border: green 2px solid;
+}
