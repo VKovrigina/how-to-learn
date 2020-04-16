@@ -9,3 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+div, form {
+  border: green 2px solid;
+}

@@ -253,6 +253,37 @@
 
         </section>
 
+        <section class="form">
+          <h2 class="section-title section-title_line-height_px">Напишите свой комментарий!</h2>
+          <p class="section-subtitle">Мы всегда рады вашим отзывам и предложениям</p>
+
+          <div class="form__content">
+            <form class="form__comment">
+              <fieldset class="form__input-container">
+                <label for="name" class="form__label">Ваше имя</label>
+                <input type="text" class="form__item form__item_el_name" id="name"
+                name="name" placeholder="ФИО" required>
+
+                <label for="email" class="form__label">E-mail</label>
+                <input type="email" class="form__item form__item_el_email" id="email"
+                name="email" placeholder="hello@example.com">
+
+                <label for="main-text" class="form__label">Текст</label>
+                <textarea class="form__item form__item_el_main-text" id="main-text"
+                name="main-text" placeholder="Текст вашего комментария" required></textarea>
+
+              </fieldset>
+              <fieldset class="form__handlers">
+                <input type="submit" class="form__button form__button_type_submit">
+                <input type="reset" class="form__button form__button_type_reset">
+              </fieldset>
+            </form>
+
+            <p class="form__text">Вы делаете нас лучше!</p>
+          </div>
+          
+        </section>
+
     </main>
 
     <footer class="footer">

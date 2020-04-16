@@ -1,0 +1,6 @@
+@import url(./_type/form__button_type_submit.css);
+@import url(./_type/form__button_type_reset.css);
+
+.form__button {
+  border: none;
+}

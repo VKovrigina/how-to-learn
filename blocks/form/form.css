@@ -1,0 +1,17 @@
+@import url(./__input-container/form__input-container.css);
+@import url(./__comment/form__comment.css);
+@import url(./__label/form__label.css);
+@import url(./__item/form__item.css);
+@import url(./__button/form__button.css);
+@import url(./__content/form__content.css);
+@import url(./__text/form__text.css);
+@import url(./__handlers/form__handlers.css);
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F2F2F2;
+}

@@ -1,0 +1,8 @@
+.form__comment {
+  width: 50%;
+  height: max-content;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  box-shadow: 0 4px 16px #a9a9a9;
+}
